@@ -1,21 +1,42 @@
 <?php
+  include "resources/header.php";
+  require_once "app/db.php";
 
-include "resources/header.php";
+  $db = new db();
+  $connectDb = $db->connectDatabase();
+
+  $sql = "SELECT * FROM banners WHERE ativo = '1' ";
+  $returnDb = mysqli_query($connectDb, $sql);
+  $numRows = mysqli_num_rows($returnDb);
+  $active = true;
 ?>
 
     <div class="row" id="carrouseurs">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/img/banner1.jpg" class="d-block w-100 banner" alt="banner1">
+                  <?php
+                      if ($numRows <= 0) {
+                  ?>
+                        <div class="carousel-item active">
+                          <img src="assets/img/banner.jpg" class="d-block w-100 banner" alt="banner1">
+                        </div>
+                  <?php
+                      }
+                  ?>
+
+                  <?php
+                    while ($arrayDb = mysqli_fetch_array($returnDb)) {
+                      $file = $arrayDb['arquivo'];
+                      $id = $arrayDb['id'];
+                  ?>
+                  <div class="carousel-item <?= $active ? 'active' : '' ?>">
+                    <img src="upload/banner/<?= $file; ?>" class="d-block w-100 banner" alt="banner<?= $id; ?>">
                   </div>
-                  <div class="carousel-item">
-                    <img src="assets/img/banner.jpg" class="d-block w-100 banner" alt="banner2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/img/banner2.jpg" class="d-block w-100 banner" alt="banner3">
-                  </div>
+                  <?php
+                    $active = false;
+                    }
+                  ?>
                 </div>
               </div>
         </div>

@@ -2,8 +2,7 @@
     require_once "db.php";
 
     $id = $_POST['id'];
-    $vacany= $_POST['vaga'];
-    $sector = $_POST['setor'];
+    $name= $_POST['name'];
     if (isset($_FILES)) {
         $imgName = $_FILES['img']['name'];
     }else {
@@ -12,7 +11,7 @@
 
     $db = new db();
     $connecDb = $db->connectDatabase();
-    $sql = "SELECT * FROM jobs WHERE id = {$id}";
+    $sql = "SELECT * FROM banners WHERE id = {$id}";
     $sqlSelect = mysqli_query($connecDb, $sql);
     $sqlArray = mysqli_fetch_array($sqlSelect);
     $nameImg = $sqlArray['arquivo'];
@@ -27,7 +26,7 @@
         $newName = $file.$extension;
         $lastName = $nameImg;
         //diretorio onde as imagens vão ser salvas no servidor
-        $directory = "../upload/";
+        $directory = "../upload/banner/";
         //faz o upload
         //move_uploaded_files(nome arquivo enviado, pra onde vai (diretorio+extenção)); 
         if($newName != $lastName) {
@@ -40,10 +39,10 @@
         $newName = $nameImg;
     }
 
- $sqlUpdate = "UPDATE jobs SET vaga = '{$vacany}', setor = '{$sector}', datas = NOW(), arquivo = '{$newName}' WHERE id = {$id}";
-
+ $sqlUpdate = "UPDATE banners SET nome = '{$name}', arquivo = '{$newName}', data = NOW()  WHERE id = {$id}";
+echo $sqlUpdate;
     if (mysqli_query($connecDb, $sqlUpdate)) {
-        header('Location: ../admin_vagas.php?code=3');
+        header('Location: ../admin_banner.php?code=3');
     }else {
-        header('Location: ../admin_vagas.php?code=4');
+        header('Location: ../admin_banner.php?code=4');
     }

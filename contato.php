@@ -29,7 +29,7 @@
             </div>
            
             <div class="col-12 col-sm-12 col-md-12 col-ld-12 col-xs-12 col-xxl-12">
-                <form class="form-group" method="post" action="enviar_email.php" >
+                <form class="form-group" method="post" action="app/enviar_email.php" >
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nome:</label>
                       <input type="text" class="form-control" required id="exampleInputName" name="name" aria-describedby="nameHelp">

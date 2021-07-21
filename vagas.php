@@ -5,7 +5,7 @@
     $db = new db();
     $connectDb = $db->connectDatabase();
 
-    $sql = "SELECT * FROM jobs";
+    $sql = "SELECT * FROM jobs ORDER BY datas DESC ";
 
     $returnDb = mysqli_query($connectDb, $sql);
     $numRows = mysqli_num_rows($returnDb);

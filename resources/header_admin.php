@@ -71,6 +71,9 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
+                <a class="nav-link" href="admin_banner.php">
+                    <span>Banner</span>
+                </a>
                 <a class="nav-link" href="admin_vagas.php">
                     <span>Vagas de Emprego</span>
                 </a>

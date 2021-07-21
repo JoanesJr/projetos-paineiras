@@ -1,11 +1,7 @@
-<?php
 
-$_POST['function'];
-$_POST['required'];
-$_POST['upload'];
+<form action="" method="get">
+    <input type="text" name="nome">
+    <input type="text" name="aldeao">
+    <button type="submit">Enviar</button>
+</form>
 
-echo $_POST['function'];
-echo $_POST['required'];
-echo "<br><br><br>";
-
-var_dump($_POST['upload']);
