@@ -45,7 +45,7 @@
                                         <td><?= $arrayReturnDb['nome']; ?></td>
                                         <td><?= date("d/m/Y", strtotime($arrayReturnDb['data'])); ?></td>
                                         <td class="text-center">
-                                            <a href="app/ativa_desativa.php?ativo=<?= $arrayReturnDb['ativo']?>&n=<?= $arrayReturnDb['id'];?>" class="btn btn-danger">Ativar/Desativar</a>
+                                            <a href="app/ativa_desativa.php?ativo=<?= $arrayReturnDb['ativo']?>&n=<?= $arrayReturnDb['id'];?>" class="btn btn-<?= $arrayReturnDb['ativo'] ? 'danger' : 'success' ?>"><?= $arrayReturnDb['ativo'] ? 'Desativar' : 'Ativar' ?></a>
                                             <a href="edit_banner.php?n=<?= $arrayReturnDb['id']; ?>" class="btn btn-outline-warning"><i class="far fa-edit"></i></a>
                                             <a href="app/delete_banner.php?n=<?= $arrayReturnDb['id']; ?>" class="btn btn-outline-danger"><i class="far fa-trash-alt"></i></a>
                                         </td>

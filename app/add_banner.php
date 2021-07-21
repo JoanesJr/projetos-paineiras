@@ -22,7 +22,7 @@
 
     $db = new db();
     $connectDb = $db->connectDatabase();
-    $ativo = 1;
+    $ativo = 0;
 
     $sql = "INSERT INTO banners (nome, arquivo, data, ativo) VALUES ('{$name}', '{$newName}', NOW(), {$ativo})";
 
