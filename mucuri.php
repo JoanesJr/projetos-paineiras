@@ -6,7 +6,7 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Clínica Hospital Paineiras em Mucuri</h3>
+                <h3 class="text-center">Clínica Paineiras em Mucuri</h3>
             </div>
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
@@ -14,54 +14,84 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-12">
-                <h3 class="text-center">Especialidade</h3>
+        <div class="backgroung-clinic" id="backgroung-clinic">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h3 class="text-center text-white">Especialidade</h3>
+                </div>
+                <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                    <div class="header">
+                        <img src="assets/img/dermatologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de DERMATOLOGIA">
+                        <h4 class="d-flex flex-column justify-content-center align-items-center">DERMATOLOGIA</h4>
+                    </div>
+
+                    <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                        <ul class="list-group">
+                            <li class="list-group-item">Dra. Andressa Siepiersk </li>
+                            <li class="list-group-item">Dra. Verônica Pereira</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/endocrinologia.jpeg" class="img-clinic img-fluid" alt="imagem ilustrativa de ENDOCRINOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ENDOCRINOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Victor Curty </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Dermatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Andressa Rocha Siepierski</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Endocrinologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Victor Gomes Curty</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Fonoaudiologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Daniela Machado Maciel</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ginecologia/Obstetrícia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Carmen da Fonseca </li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Pediatria</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Valéria Maria Porto Trinchero</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Psicologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Mário Henrique Pazzini Couto</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/fonoaudiologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de FONOAUDIOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">FONOAUDIOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Daniela Maciel </li>
+                        <li class="list-group-item">Dra. Roberta Marsaro </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/pediatria.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PEDIATRIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PEDIATRIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Edwalter Dias </li>
+                        <li class="list-group-item">Dr. Pedro Figueiredo </li>
+                        <li class="list-group-item">Dra. Raissa Saúde </li>
+                        <li class="list-group-item">Dra. Valéria Trinchero </li>
+                    </ul>
+                </div>  
+            </div> 
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/psicologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PSICOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PSICOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Adrienne Botelho </li>
+                        <li class="list-group-item">Dr. Mário Pazzini </li>
+                        <li class="list-group-item">Dra. Pamela Cristina </li>
+                        <li class="list-group-item">Dra. Simone Costa </li>
+                    </ul>
+                </div>  
+            </div> 
             
-           
-        </div>
+            
+            </div>
     </div>
 
     </div>

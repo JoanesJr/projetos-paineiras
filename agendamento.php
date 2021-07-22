@@ -11,36 +11,43 @@ include "resources/header.php";
                 <h3 class="text-center">Agendamentos</h3>
             </div>
             <div class="item-scheudle col-12 col-sm-12 col-md-6 col-lg-6 col-xs-6 col-xxl-6">
-                <h4 class="text-center">Hospital Paineiras (Mucuri/Itabatã)</h4>
+                <h4 class="text-center">Hospital Paineiras (Itabatã)</h4>
                 <ul class="list-group">
-                    <li class="list-group group-item"><span>Agendamento de consultas:</span> (73) 3605-3904</li>
-                    <li class="list-group group-item"><span>Agendamento de exames:</span> (73) 3605-3905</li>
-                    <li class="list-group group-item"><span>PABX:</span> (73) 3605-3900 / (73) 3605-3901</li>
-                    <li class="list-group group-item"><span>Fax:</span> (73) 3605-3909</li>
-                    <li class="list-group group-item"><span>Endereço:</span>Av. dos Eucalíptos, nº 8 - Jardim dos Eucalíptos - Itabatã-Mucuri / BA - CEP: 45936-000</li>
+                    <li class="list-group group-item"><span>Telefone:</span> (73) 3605-3900 / 3605-3901</li>
+                    <li class="list-group group-item"><span>Celular</span> (73) 99974-0798</li>
+                    <li class="list-group group-item"><span>Endereço:</span>Av. dos Eucalíptos, nº 8 - Jardim dos Eucalíptos - Itabatã-Mucuri / BA </br>CEP: 45936-000</li>
                 </ul>   
             </div>
             <div class="item-scheudle col-12 col-sm-12 col-md-6 col-lg-6 col-xs-6 col-xxl-6">
                 <h4 class="text-center">Clínica Teixeira de Freitas</h4>
                 <ul class="list-group">
-                    <li class="list-group group-item"><span>Agendamento de consultas:</span> (73) 3605-3904</li>
-                    <li class="list-group group-item"><span>PABX:</span> (73) 3605-3900 / (73) 3605-3901</li>
-                    <li class="list-group group-item"><span>Fax:</span> (73) 3605-3909</li>
-                    <li class="list-group group-item"><span>Endereço:</span>Av São Paulo, nº520 - Jardim Caraípe - Teixeira de Freitas / BA - CEP 45997-000</li>
+                    <li class="list-group group-item"><span>Telefone:</span> (73) 3291-2724</li>
+                    <li class="list-group group-item"><span>Celular:</span> (73) 99973-4263</li>
+                    <li class="list-group group-item"><span>Endereço:</span>Av São Paulo, nº520 - Jardim Caraípe - Teixeira de Freitas / BA</br>CEP: 45997-000</li>
                 </ul>   
             </div>
             <div class="item-scheudle col-12 col-sm-12 col-md-6 col-lg-6 col-xs-6 col-xxl-6">
                 <h4 class="text-center">Clínica Posto da Mata</h4>
                 <ul class="list-group">
                     <li class="list-group group-item"><span>Telefone:</span>  (73) 3209-1746</li>
-                    <li class="list-group group-item"><span>Endereço:</span>Rua Pedro Carolino Costa, nº 1292 - Centro - Posto da Mata-Nova Viçosa / BA - CEP 45928-000</li>
+                    <li class="list-group group-item"><span>Celular:</span>  (73) 99972-7106</li>
+                    <li class="list-group group-item"><span>Endereço:</span>Rua Pedro Carolino Costa, nº 1292 - Centro - Posto da Mata-Nova Viçosa / BA</br>CEP: 45928-000</li>
                 </ul>   
             </div>
             <div class="item-scheudle col-12 col-sm-12 col-md-6 col-lg-6 col-xs-6 col-xxl-6">
+                <h4 class="text-center">Clínica Mucuri</h4>
+                <ul class="list-group">
+                    <li class="list-group group-item"><span>Telefone:</span>  (73) 3206-1013</li>
+                    <li class="list-group group-item"><span>Celular:</span>  (73) 99974-0885</li>
+                    <li class="list-group group-item"><span>Endereço:</span>Rua Oscar Teixeira de Siqueira, s/n - Centro – Mucuri/ BA</br>CEP: 45.930-000</li>
+                </ul>   
+            </div>
+            <div class="item-scheudle col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <h4 class="text-center">Clínica Imperatriz</h4>
                 <ul class="list-group">
                     <li class="list-group group-item"><span>Telefone:</span>  (99) 3528-4700</li>
-                    <li class="list-group group-item"><span>Endereço:</span>R. Pernambuco, 432 - Juçara, Imperatriz - MA, 65900-500</li>
+                    <li class="list-group group-item"><span>Telefone:</span>  (99) 99113-2232</li>
+                    <li class="list-group group-item"><span>Endereço:</span>Rua Pernambuco, nº 432 – Jussara – Imperatriz/ MA  </br>CEP 65.900-500</li>
                 </ul>   
             </div>
         </div>

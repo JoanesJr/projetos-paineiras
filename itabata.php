@@ -14,169 +14,400 @@
             
             </div>
         </div>
+    </div>
 
-        <div class="row">
+    <div class="backgroung-clinic" id="backgroung-clinic">
+    <div class="row justify-content-center">
             <div class="col-12">
-                <h3 class="text-center">Especialidade</h3>
+                <h3 class="text-center text-white">Especialidade</h3>
             </div>
    
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ortopedia|Traumatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Paulo Antonio Silva Santos </li>
-                    <li class="list-group-item">Ronald Moura Vale Mota </li>
-                    <li class="list-group-item">Igor de Castro Malacarne </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/acupuntura.jpeg" class="img-clinic img-fluid" alt="imagem ilustrativa de ACUPUNTURA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ACUPUNTURA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Rodrigo Soares </li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ultrassonografia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Juliano de Borba E Rocha</li>
-                    <li class="list-group-item">Kellen de Oliveira Soares</li>
-                    <li class="list-group-item">Leonardo Lúcio Monteiro de Barros Medeiros</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/anestesiologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de anestesiologia">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ANESTESIOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Hermínio Asevedo </li>
+                        <li class="list-group-item">Dr. Marcos Lomba </li>
+                        <li class="list-group-item">Dra. Thais Rezende </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Fisioterapia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Osmar de Souza Lima Júnior</li>
-                    <li class="list-group-item">Sabrina de Souza Santos Tavares</li>
-                    <li class="list-group-item">Sandro de Souza Lima</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/angiologia.png" class="img-clinic img-fluid" alt="imagem ilustrativa de ANGIOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ANGIOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Sergio Carvalho </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Angiologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Sérgio Carvalho de Paula</li>
-                    <li class="list-group-item">Juliana Caetité Correia Rios Castro</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/cardiologia.jpeg" class="img-clinic img-fluid" alt="imagem ilustrativa de CARDIOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CARDIOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Elisa Macedo </li>
+                        <li class="list-group-item">Dra. Juliana Catité </li>
+                        <li class="list-group-item">Dr. Natan Gomes </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Gastroenterologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Vilma de Araujo Lopes Kalil </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/cirurgia_geral.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de CIRURGIA GERAL">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CIRURGIA GERAL</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Bruno Santana </li>
+                        <li class="list-group-item">Dra. Fernanda Lemgruber </li>
+                        <li class="list-group-item">Dr. Ismar Senna </li>
+                        <li class="list-group-item">Dr. Nayguel Almeida </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Cirurgia Geral</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Humberto Santos Novais</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/cirurgia_oncologica.png" class="img-clinic img-fluid" alt="imagem ilustrativa de CIRURGIA GERAL">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CIRURGIA ONCOLÓGICA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Fernanda Lomgruber </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Psiquiatria</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Ana Paula Albino da Silva </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/cirurgia_plastica.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de CIRURGIA PLÁSTICA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CIRURGIA PLÁSTICA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Ernani Avelar </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Endocrinologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Victor Gomes Curty </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/clinica_medica.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de CLÍNICA MÉDICA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CLÍNICA MÉDICA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Alessandro Jareta </li>
+                        <li class="list-group-item">Dra. Alexandro Kalil </li>
+                        <li class="list-group-item">Dr. Edwalter Días </li>
+                        <li class="list-group-item">Dr. Marcelo Machado </li>
+                        <li class="list-group-item">Dr. Rodrigo Costa </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Dermatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Andressa Rocha Siepierski </li>
-                    <li class="list-group-item">Mário Luiz de Oliveira Gomes Frigeri </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/dermatologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de DERMATOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">DERMATOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Andressa Siepiersk </li>
+                        <li class="list-group-item">Dra. Verônica Pereira</li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Oftalmologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Vera Ane Ribeiro Pereira </li>
-                    <li class="list-group-item">Humphrey Weibem Tjioe Pwa </li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/endocrinologia.jpeg" class="img-clinic img-fluid" alt="imagem ilustrativa de ENDOCRINOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ENDOCRINOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Victor Curty </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/fisioterapia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de Fisioterapia">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">Fisioterapia</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Ana Luiza </li>
+                        <li class="list-group-item">Dra. Rafaela Anizio </li>
+                        <li class="list-group-item">Dra. Silvia Mazzoni </li>
+                    </ul>
+                </div>  
             </div>  
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ginecologia/Obstetrícia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Carmen da Fonseca</li>
-                    <li class="list-group-item">Jesuína Dark Gomes de Carvalho </li>
-                </ul>
-            </div> 
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Psicologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Mário Henrique Pazzini Couto </li>
-                    <li class="list-group-item">Simone Alves Araújo Costa </li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Endocrinopediatria</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Carine Martins de Andrade Silva</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Otorrinolaringologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Clara Mônica Figueredo de Lima</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Neurologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Maria das Graças Matola de Carvalho </li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Nutrição</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Flávia Schitine Gomes Guimarães</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/fonoaudiologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de FONOAUDIOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">FONOAUDIOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Daniela Maciel </li>
+                        <li class="list-group-item">Dra. Roberta Marsaro </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/gastroenterologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de GASTROENTEROLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">GASTROENTEROLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Vilma Araujo </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/ginecologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de GINECOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">GINECOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Carolina Deutz </li>
+                        <li class="list-group-item">Dra. Fernanda Pontes </li>
+                        <li class="list-group-item">Dra. Jesuína Dark </li>
+                    </ul>
+                </div>  
+            </div>         
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/hebiatria.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de HEBIATRIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">HEBIATRIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Valéria Trinchero </li>
+                    </ul>
+                </div>  
+            </div>         
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/infectologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de INFECTOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">INFECTOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Emannuelle Assad </li>
+                    </ul>
+                </div>  
+            </div>         
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/mastologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de MASTOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">MASTOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Carolina Deutz </li>
+                        <li class="list-group-item">Dr. Ismar Senna </li>
+                    </ul>
+                </div>  
+            </div>         
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/neurologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de NEUROLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">NEUROLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Maria das Graças </li>
+                    </ul>
+                </div>  
+            </div>         
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/nutricao.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de NUTRIÇÃO">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">NUTRIÇÃO</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Flávia Schitine </li>
+                    </ul>
+                </div>  
             </div>   
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Pediatria</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Valéria Maria Porto Trinchero </li>
-                    <li class="list-group-item">Edwalter Dias da Silva </li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Urologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Ricardo Kopruszynski Junior</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Fonoaudiologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Daniela Machado Maciel</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Reumatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Rodrigo Costa dos Santos</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Anestesiologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Francisco Ludovico de Almeida Filho</li>
-                    <li class="list-group-item">Hermínio Asevedo Neto</li>
-                    <li class="list-group-item">Luciano Teixeira Lopes</li>
-                    <li class="list-group-item">Manoel Pedro Rodrigues Soares Junior</li>
-                    <li class="list-group-item">Marcos Lomba Vilela Bastos</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Clínica Médica</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Alessandro Jareta</li>
-                    <li class="list-group-item">Alexandre Kalil Araújo</li>
-                    <li class="list-group-item">Edwalter Dias da Silva</li>
-                    <li class="list-group-item">Marcelo Machado de Castro</li>
-                    <li class="list-group-item">Rodrigo Costa dos Santos</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/obstetricia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de OBSTETRÍCIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">OBSTETRÍCIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Fernanda Pontes </li>
+                        <li class="list-group-item">Dra. Jesuína Dark </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/oftalmologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de OFTALMOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">OFTALMOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Vera Ano </li>
+                        <li class="list-group-item">Dr. Humphrey Weibern </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/ortopedia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de ORTOPEDIA E TRAUMATOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ORTOPEDIA E </br> TRAUMATOLOGIA</h4>
+                </div>
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Armando Barbosa </li>
+                        <li class="list-group-item">Dr. Jameson José </li>
+                        <li class="list-group-item">Dr. Paulo Antonio </li>
+                        <li class="list-group-item">Dr. Ronald Moura </li>
+                    </ul>
+                </div>  
+            </div>       
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/otorrinolaringologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de OTORRINOLARINGOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">OTORRINOLARINGOLOGIA</h4>
+                </div>
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Clara Mônica </li>
+                    </ul>
+                </div>  
+            </div>       
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/pediatria.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PEDIATRIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PEDIATRIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Edwalter Dias </li>
+                        <li class="list-group-item">Dr. Pedro Figueiredo </li>
+                        <li class="list-group-item">Dra. Raissa Saúde </li>
+                        <li class="list-group-item">Dra. Valéria Trinchero </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/proctologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PEDIATRIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PROCTOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Bruno Santana </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/psicologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PSICOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PSICOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Adrienne Botelho </li>
+                        <li class="list-group-item">Dr. Mário Pazzini </li>
+                        <li class="list-group-item">Dra. Pamela Cristina </li>
+                        <li class="list-group-item">Dra. Simone Costa </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/reumatologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de REUMATOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">REUMATOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Antonio Carlos </li>
+                        <li class="list-group-item">Dr. Rodrigo Costa </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/ultrassonografia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de ULTRASSONOGRAFIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ULTRASSONOGRAFIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. Erica Costa </li>
+                        <li class="list-group-item">Dr. Juliano Borba </li>
+                        <li class="list-group-item">Dr. Marcelo Deutz </li>
+                        <li class="list-group-item">Dr. Rafael Deutz </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/urologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de UROLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">UROLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. Nayguel Almeida </li>
+                    </ul>
+                </div>  
+            </div>   
+            
+    </div>
+
+        
+           
+            
+           
         </div>
     </div>
 

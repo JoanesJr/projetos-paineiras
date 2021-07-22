@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style_vaga.css">
+    <link rel="stylesheet" href="css/unytis.css">
     <script src="https://kit.fontawesome.com/f95c8ca5b5.js" crossorigin="anonymous"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="t9ElIFAx"></script>

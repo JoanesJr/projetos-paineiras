@@ -7,7 +7,7 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Clínica Hospital Paineiras em Imperatriz</h3>
+                <h3 class="text-center">Clínica Paineiras em Imperatriz</h3>
             </div>
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
@@ -16,78 +16,109 @@
                 
             </div>
         </div>
+    </div>
 
-        <div class="row">
+    <div class="backgroung-clinic" id="backgroung-clinic">
+        <div class="row justify-content-center">
             <div class="col-12">
-                <h3 class="text-center">Especialidade</h3>
+                <h3 class="text-center text-white">Especialidade</h3>
             </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Cardiologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Deusdédite Jorge de Sales Silva</li>>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/clinica_medica.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de CLÍNICA MÉDICA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">CLÍNICA MÉDICA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. XXXXXX XXXX </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Dermatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Rosana Menezes de Leão Mendes</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/dermatologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de DERMATOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">DERMATOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. XXXX XXXXX </li>
+                    </ul>
+                </div>
             </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Nutrição</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Isabel dos Reis Oliveira</li>
-                </ul>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/endocrinologia.jpeg" class="img-clinic img-fluid" alt="imagem ilustrativa de ENDOCRINOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">ENDOCRINOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. XXXXXX XXXXXX </li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ortopedia e Traumatologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Gustavo Leocádio Coelho de Souza</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Clínica Médica</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Cláudio Roberto Silva Sousa</li>
-                    <li class="list-group-item">Deusdédite Jorge de Sales Silva</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Ginecologia/Obstetrícia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Ivaneide Santos Chaves Pacheco</li>
-                    <li class="list-group-item">Karlla Zolinda Cantão Chaves</li>
-                </ul>
-            </div>
-            
-            <div class="speciality col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Pediatria</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Danielly Nunes de Matos Leite</li>
-                    <li class="list-group-item">Wydeglânnya de Aguiar Costa</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Psicologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Daniella Alves da Silva Machado</li>
-                    <li class="list-group-item">Rosilany Nunes Sena de Matos</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-                <h4 class="text-center">Endocrinologia</h4>
-                <ul class="list-group">
-                    <li class="list-group-item">Adriana Seixas Costalonga</li>
-                    <li class="list-group-item">Rosimar Brito de Moraes</li>
-                </ul>
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
-            <div class="speciality col-12 col-sm-12 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
-            </div>
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/ginecologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de GINECOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">GINECOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. XXXXX XXXXXX </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/nutricao.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de NUTRIÇÃO">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">NUTRIÇÃO</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. XXXXXX XXXXX </li>
+                    </ul>
+                </div>  
+            </div> 
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/obstetricia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de OBSTETRÍCIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">OBSTETRÍCIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. XXXXX XXXXX </li>
+                    </ul>
+                </div>  
+            </div>  
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/pediatria.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PEDIATRIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PEDIATRIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dr. XXXXX XXXXX </li>
+                    </ul>
+                </div>  
+            </div>   
+            <div class="clinic col-12 col-sm-6 col-md-3 col-ld-3 col-xs-3 col-xxl-3">
+                <div class="header">
+                    <img src="assets/img/psicologia.jpg" class="img-clinic img-fluid" alt="imagem ilustrativa de PSICOLOGIA">
+                    <h4 class="d-flex flex-column justify-content-center align-items-center">PSICOLOGIA</h4>
+                </div>
+
+                <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
+                    <ul class="list-group">
+                        <li class="list-group-item">Dra. XXXXX </li>
+                    </ul>
+                </div>  
+            </div> 
             
             
         </div>
