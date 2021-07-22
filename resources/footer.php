@@ -14,13 +14,14 @@
                     </div>                 
                   </div>
     
-                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
-                    <div align="center" class="fb-page" data-href="https://www.facebook.com/SepacoRedeSaudePaineiras/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SepacoRedeSaudePaineiras/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SepacoRedeSaudePaineiras/">Sepaco Rede de Saúde Paineiras</a></blockquote></div>
+                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xs-4 col-xxl-4 text-center">
+                    <h6><a href="https://www.instagram.com/redesaudepaineiras/" class="link" target="_Blank"><i class="fab fa-instagram" style="margin-right: 20px; margin: 10px; padding: 10px;"></i>Hospital Paineiras</a></h6>
+                   <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0466d43c1032509bbd5180fd5bb7f968.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                   </div>
           
                   <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xs-4 col-xxl-4" align="center">
                       <h3 class="text-center">Certificação PNCQ</h3>
-                      <img src="assets/img/certificacao_hp.png" class="img-footer img-fluid" alt="imagem da certificação">
+                      <!-- <img src="assets/img/certificacao_hp.png" class="img-footer img-fluid" alt="imagem da certificação"> -->
                   </div>
             </div>
             <div class="row">

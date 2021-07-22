@@ -37,12 +37,18 @@
 }
 
 .img-footer {
-    width: 70px;
-    height: 70px;
-    max-width: 70px;
-    min-width: 70px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    min-width: 200px;
     object-fit: cover;
     object-position: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1400px) {
