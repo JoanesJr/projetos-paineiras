@@ -21,7 +21,7 @@
           
                   <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xs-4 col-xxl-4" align="center">
                       <h3 class="text-center">Certificação PNCQ</h3>
-                      <!-- <img src="assets/img/certificacao_hp.png" class="img-footer img-fluid" alt="imagem da certificação"> -->
+                      <img src="assets/img/certificacao_pncq.png" class="img-footer img-fluid" alt="imagem da certificação">
                   </div>
             </div>
             <div class="row">
