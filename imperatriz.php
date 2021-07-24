@@ -31,7 +31,7 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dr. XXXXXX XXXX </li>
+                        <li class="list-group-item">Dr. Cláudio Roberto Silva Sousa </li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dra. XXXX XXXXX </li>
+                        <li class="list-group-item">Dra. Rosana Menezes de Leão Mendes</li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +55,8 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dr. XXXXXX XXXXXX </li>
+                        <li class="list-group-item">Dra. Adriana Seixas Costalonga</li>
+                        <li class="list-group-item">Dr. Rosimar Brito de Moraes </li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +68,7 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dra. XXXXX XXXXXX </li>
+                        <li class="list-group-item">Dra. Karlla Zolinda Cantão Chaves</li>
                     </ul>
                 </div>  
             </div>  
@@ -79,7 +80,7 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dra. XXXXXX XXXXX </li>
+                        <li class="list-group-item">Dra. Isabel dos Reis Oliveira </li>
                     </ul>
                 </div>  
             </div> 
@@ -91,7 +92,7 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dra. XXXXX XXXXX </li>
+                        <li class="list-group-item">Dra. Karlla Zolinda Cantão Chaves </li>
                     </ul>
                 </div>  
             </div>  
@@ -103,7 +104,8 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dr. XXXXX XXXXX </li>
+                        <li class="list-group-item">Dra. Danielly Nunes de Matos Leite</li>
+                        <li class="list-group-item">Dr. Wydeglannya de Aguiar Costa </li>
                     </ul>
                 </div>  
             </div>   
@@ -115,7 +117,8 @@
 
                 <div class="content_clinic d-flex flex-column justify-content-center align-items-center">
                     <ul class="list-group">
-                        <li class="list-group-item">Dra. XXXXX </li>
+                        <li class="list-group-item">Dra. Daniella Alves da Silva Machado </li>
+                        <li class="list-group-item">Dra. Rosilany Nunes Sena de Matos </li>
                     </ul>
                 </div>  
             </div> 

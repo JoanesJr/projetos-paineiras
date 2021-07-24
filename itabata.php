@@ -7,11 +7,17 @@
             <div class="col-12">
                 <h3 class="text-center">Hospital Paineiras em  Itabatã</h3>
             </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+                <img src="assets/img/Fachada Hospital.jpeg" class="img-local img-fluid" alt="imagem do hospital paineiras">
+            </div>
+        </div>
+        <div class="row">
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.2905102452264!2d-39.86991458588225!3d-18.011716537707287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xcaa2523850eca9%3A0x1f0016ebb956bda4!2sHospital%20Paineiras%20-%20Itabat%C3%A3%2C%20Mucuri%20-%20BA%2C%2045930-000!5e0!3m2!1spt-PT!2sbr!4v1626736048655!5m2!1spt-PT!2sbr" style="border: 2px double blue; border-radius: 12px; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.2905102452264!2d-39.86991458588225!3d-18.011716537707287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xcaa2523850eca9%3A0x1f0016ebb956bda4!2sHospital%20Paineiras%20-%20Itabat%C3%A3%2C%20Mucuri%20-%20BA%2C%2045930-000!5e0!3m2!1spt-PT!2sbr!4v1626736048655!5m2!1spt-PT!2sbr" style="border: 2px double blue; border-radius: 12px; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-            
             </div>
         </div>
     </div>

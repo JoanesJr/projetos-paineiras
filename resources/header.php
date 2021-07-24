@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style_vaga.css">
     <link rel="stylesheet" href="css/unytis.css">
+    <link rel="stylesheet" href="css/img_local.css">
     <script src="https://kit.fontawesome.com/f95c8ca5b5.js" crossorigin="anonymous"></script>
     <div id="fb-root"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -31,7 +32,7 @@
                       <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="#about">Sobre</a>
+                            <a class="nav-link text-body" href="index.php#about">Sobre</a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-body" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

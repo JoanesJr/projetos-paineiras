@@ -3,11 +3,17 @@
 ?>
 
 
-    <div class="container" id="content">
-        <div class="row">
+    <div class="container" id="content"> <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Clínica Paineiras em Mucuri</h3>
+                <h3 class="text-center">Hospital Paineiras em  Itabatã</h3>
             </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+                <img src="assets/img/Mucuri.jpeg" class="img-local img-fluid" alt="imagem do hospital paineiras">
+            </div>
+        </div>
+        <div class="row">
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.822821332178!2d-39.5463312858809!3d-18.07975518766715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xcac3b6e1cd4843%3A0x935f27f5167a0ca8!2sCl%C3%ADnica%20e%20Laborat%C3%B3rio%20Paineiras!5e0!3m2!1spt-PT!2sbr!4v1626735925480!5m2!1spt-PT!2sbr" width="1130" height="450" style="border: 2px double blue; border-radius: 12px; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>

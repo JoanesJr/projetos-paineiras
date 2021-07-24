@@ -1,6 +1,20 @@
 <?php
 
   include "resources/header.php";
+  require_once "app/db.php";
+
+  if (isset($_GET['v']) and isset($_GET['n'])) {
+    $vaga = $_GET['v'];
+    $idVaga = $_GET['n'];
+
+    $db = new db();
+    $connectDb = $db->connectDatabase();
+
+    $sqlVaga = "SELECT * FROM jobs WHERE id = '{$idVaga}'";
+    $sendSql = mysqli_query($connectDb, $sqlVaga);
+    $returDbVaga = mysqli_fetch_array($sendSql);
+    $nameVaga = $returDbVaga['assunto'];
+}
 
 ?>
   <div class="container">
@@ -29,7 +43,7 @@
             </div>
            
             <div class="col-12 col-sm-12 col-md-12 col-ld-12 col-xs-12 col-xxl-12">
-                <form class="form-group" method="post" action="app/enviar_email.php" >
+                <form class="form-group" method="post" action="app/enviar_email.php" enctype="multipart/form-data">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nome:</label>
                       <input type="text" class="form-control" required id="exampleInputName" name="name" aria-describedby="nameHelp">
@@ -44,9 +58,9 @@
                       <input type="tel" class="form-control" name="tel" required id="exampleInputTel" aria-describedby="telHelp" placeholder="(xx)xxxxx-xxxx">
                       <div id="telHelp" class="form-text">Informe um telefone válido.</div>
 
-                      <div class="mb-3">
+                      <div class="mb-3" style="<?= isset($vaga) ? 'display: none;' : '' ?>">
                         <label for="exampleInputEmail1" class="form-label">Assunto:</label>
-                          <input type="text" class="form-control" required id="exampleInputName" name="title" aria-describedby="nameHelp">
+                          <input type="text" class="form-control" <?= isset($vaga) ? '' : 'required' ?> id="exampleInputName" name="title" aria-describedby="nameHelp" <?= isset($vaga) ? "value = '$nameVaga';" : '' ?>>
                         <div id="emailHelp" class="form-text">Informe assunto do email.</div>
                     </div>
 
@@ -54,6 +68,12 @@
                         <label for="exampleFormControlTextarea1">Mensagem:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" name="content" rows="3"></textarea>
                       </div> <br>
+                      <div class="form-group" style="<?= isset($vaga) ? '' : 'display:none;' ?>">
+                        <label for="exampleFormControlTextarea1">Anexo:</label>
+                        <input type="file" name="anexo" id="anexo" class="form-control">
+                      </div> <br>
+
+
                       <div class="text-center">
                         <button type="submit" class="btn btn-outline-primary">Enviar</button>
                       </div>

@@ -3,11 +3,17 @@
 ?>
 
     <div class="container" id="content">
-        <div class="row">
+    <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Clínica Paineiras em Teixeira de Freitas</h3>
+                <h3 class="text-center">Hospital Paineiras em  Itabatã</h3>
             </div>
-            <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+                <img src="assets/img/Fachada Teixeira.jpeg" class="img-local img-fluid" alt="imagem do hospital paineiras">
+            </div>
+        </div>
+        <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
                     <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.233383309703!2d-39.74159218552105!3d-17.54407177308387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x735441c78ecf25d%3A0xaac0d6d807287b16!2sSepaco%20-%20Cl%C3%ADnica%20Paineiras!5e0!3m2!1spt-PT!2sbr!4v1626213880990!5m2!1spt-PT!2sbr"
@@ -15,7 +21,6 @@
                     allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="backgroung-clinic" id="backgroung-clinic">

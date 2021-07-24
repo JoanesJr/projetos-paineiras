@@ -4,6 +4,7 @@
     $id = $_POST['id'];
     $vacany= $_POST['vaga'];
     $sector = $_POST['setor'];
+    $assunt = $_POST['assunto'];
     if (isset($_FILES)) {
         $imgName = $_FILES['img']['name'];
     }else {
@@ -40,7 +41,7 @@
         $newName = $nameImg;
     }
 
- $sqlUpdate = "UPDATE jobs SET vaga = '{$vacany}', setor = '{$sector}', datas = NOW(), arquivo = '{$newName}' WHERE id = {$id}";
+ $sqlUpdate = "UPDATE jobs SET vaga = '{$vacany}', setor = '{$sector}', datas = NOW(), arquivo = '{$newName}', assunto = '{$assunt}' WHERE id = {$id}";
 
     if (mysqli_query($connecDb, $sqlUpdate)) {
         header('Location: ../admin_vagas.php?code=3');

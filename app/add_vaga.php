@@ -3,6 +3,7 @@
 
     $vacancy = $_POST['vaga'];
     $sector = $_POST['setor'];
+    $assunt = $_POST['assunto'];
 
     //verifica se foi enviado o arquivo no formulariio
     if (isset($_FILES['img'])) {
@@ -24,7 +25,7 @@
     $db = new db();
     $connectDb = $db->connectDatabase();
 
-    $sql = "INSERT INTO jobs (vaga, setor, arquivo, datas) VALUES ('{$vacancy}', '{$sector}', '{$newName}', NOW())";
+    $sql = "INSERT INTO jobs (vaga, setor, arquivo, datas, assunto) VALUES ('{$vacancy}', '{$sector}', '{$newName}', NOW(), '{$assunt}')";
 
     if(mysqli_query($connectDb, $sql)) {
         header('Location: ../admin_vagas.php?code=1');

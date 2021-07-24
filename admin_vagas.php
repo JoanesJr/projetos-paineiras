@@ -20,13 +20,14 @@
 
                         <!-- Area Chart -->
                         <div class="col-xl-12 col-lg-12">
-                        <?= include_once "resources/alert.php"; ?>
+                        <?php include_once "resources/alert.php"; ?>
                             <div class="card shadow mb-4">
                             <table class="table table-dark table-striped">
                                 <thead>
                                     <tr class="text-center">
                                         <td>Função</td>
                                         <td>Setor</td>
+                                        <td>Assunto</td>
                                         <td>Data de Cadastro</td>
                                         <td>Ações</td>
                                     </tr>
@@ -39,6 +40,7 @@
                                     <tr class="table-active text-center">
                                         <td><?= $arrayReturnDb['vaga']; ?></td>
                                         <td><?= $arrayReturnDb['setor']; ?></td>
+                                        <td><?= $arrayReturnDb['assunto']; ?></td>
                                         <td><?= date("d/m/Y", strtotime($arrayReturnDb['datas'])); ?></td>
                                         <td class="text-center">
                                             <a href="#" class="btn btn-outline-primary"><i class="far fa-eye"></i></a>

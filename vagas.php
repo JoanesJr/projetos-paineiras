@@ -1,6 +1,7 @@
 <?php
     include "resources/header.php";
     require_once "app/db.php";
+    
 
     $db = new db();
     $connectDb = $db->connectDatabase();
@@ -38,22 +39,25 @@
                     $file = $arrayReturnDb['arquivo'];
                 ?>
                 <div class="item-scheudle col-12 col-sm-12 col-md-6 col-lg-6 col-xs-6 col-xxl-6">
-                <h4 class="text-center">Oportunidade de Trabalho</h4>
-                    <div class="row">
-                        <div class="col-6">
-                            <span class="">Função: <?= $vacancy; ?></span>
+                    <h4 class="text-center">Oportunidade de Trabalho</h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="">Função: <?= $vacancy; ?></span>
+                            </div>
+                            <div class="col-6">
+                                <span class="">Setor: <?= $sector; ?></span>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <span class="">Setor: <?= $sector; ?></span>
+                        
+                        
+                        <div class="row">
+                            <div class="col-12">
+                            <img src="upload/<?= $file; ?>" alt="vaga de emprego" class="img-vaga">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-12">
-                        <img src="upload/<?= $file; ?>" alt="vaga de emprego" class="img-vaga">
-                        </div>
-                    </div>
+                        <a href="contato.php?v=1&n=<?= $arrayReturnDb['id'];?>" class="btn btn-lg btn-invite">Candidate-se</a>
             </div>
+            
                 <?php
                     };
                 ?>

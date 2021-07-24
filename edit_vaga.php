@@ -26,6 +26,10 @@
                                             <input type="text" required name="setor" id="setor" class="form-control" value="<?= $returnArrayUpdate['setor']; ?>">
                                         </div>
                                         <div class="mb-3">
+                                            <label for="setor" class="form-label">Assunto:</label>
+                                            <input type="text" required name="assunto" id="assunto" class="form-control" value="<?= $returnArrayUpdate['assunto']; ?>">
+                                        </div>
+                                        <div class="mb-3">
                                             <label for="img" class="form-label">Imagem:</label>
                                             <input type="file" name="img" id="img" class="form-control" value="<?= $returnArrayUpdate['arquivo']; ?>">
                                         </div>
