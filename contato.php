@@ -68,10 +68,18 @@
                         <label for="exampleFormControlTextarea1">Mensagem:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" name="content" rows="3"></textarea>
                       </div> <br>
-                      <div class="form-group" style="<?= isset($vaga) ? '' : 'display:none;' ?>">
+                      <?php
+                        if (isset($vaga)) {
+                      ?>
+                       <div class="form-group"">
                         <label for="exampleFormControlTextarea1">Anexo:</label>
                         <input type="file" name="anexo" id="anexo" class="form-control">
                       </div> <br>
+                      <?php
+                        }
+                      ?>
+                      
+                     
 
 
                       <div class="text-center">

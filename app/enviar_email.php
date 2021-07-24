@@ -54,7 +54,11 @@ $mail = new PHPMailer(true);
     $mail->setFrom($email);
     // Define o destinatário
     $mail->addAddress('defcointnunesjr@gmail.com', 'Defcoint');
-    $mail->addAttachment("../anexo_email/{$newName}", $file.$extension);  
+    if (isset($newName)) {
+        //envia anexo
+        $mail->addAttachment("../anexo_email/{$newName}", $file.$extension); 
+    }
+     
     // Conteúdo da mensagem
     $mail->isHTML(true);  // Seta o formato do e-mail para aceitar conteúdo HTML
     $mail->Subject = $title;
@@ -62,9 +66,14 @@ $mail = new PHPMailer(true);
     // Enviar
     if(!$mail->send()) {
         echo "erro";
-        unlink("../anexo_email/{$newName}");
+        if (isset($newName)) {
+            unlink("../anexo_email/{$newName}");
+        }
+        
     } else {
-        unlink("../anexo_email/{$newName}");
+        if (isset($newName)) {
+            unlink("../anexo_email/{$newName}");
+        }
         header("Location: ../contato.php?2");
     }
 
