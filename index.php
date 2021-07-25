@@ -59,7 +59,7 @@
                    Pronto Atendimento
                 </h3>
                 <p>
-                Pronto Atendimento 24h para urgência e emergência, com equipe médica capacitada e excelente estrutura física adequada.
+                Pronto Atendimento 24h para urgência e emergência, com equipe médica capacitada e excelente infraestrutura.
                 </p>
             </div>
             <div class="block block-2 col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
@@ -68,7 +68,7 @@
                    Estruturação
                 </h3>
                 <p>
-                    Possue uma ótima estrutura, possuindo Apartamentos, Barçario, Brinquedoteca, Centro Cirurgico, Laboratório, Ultrassonografia,  etc.
+                    Possue uma ótima estrutura, possuindo Apartamentos, Berçario, Brinquedoteca, Centro Cirurgico, Laboratório, Ultrassonografia,  etc.
                 </p>
             </div>
             <div class="block col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
