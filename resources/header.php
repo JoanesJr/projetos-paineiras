@@ -39,13 +39,13 @@
                               Unidades
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                              <li><a class="dropdown-item" href="itabata.php">Itabatã (Sede)</a></li>
+                              <li class="dropdown-item" href="itabata.php"><a>Itabatã (Sede)</a></li>
                               <li><a class="dropdown-item" href="teixeira.php">Teixeira de Freitas</a></li>
                               <li><a class="dropdown-item" href="mucuri.php">Mucuri</a></li>
                               <li><a class="dropdown-item" href="posto.php">Posto da Mata</a></li>
                               <li><a class="dropdown-item" href="imperatriz.php">Imperatriz</a></li>
                             </ul>
-                          </li>
+                          </a>
                           <li class="nav-item">
                             <a class="nav-link text-body" href="convenio.php">Convenios</a>
                           </li>

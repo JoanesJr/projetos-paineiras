@@ -193,7 +193,8 @@ label {
     font-family: serif;
     font-size: 14pt;
     color: white;
-
+    padding: 12px;
+    box-shadow: 4px 3px 4px black;
 }
 
 .block-2{

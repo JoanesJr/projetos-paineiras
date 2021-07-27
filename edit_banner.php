@@ -27,7 +27,7 @@
                                         </div>
                                         <p>Imagem Atual:</p>
                                         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xs-2 col-xxl-2">
-                                            <img src="upload/banner<?= $returnArrayUpdate['arquivo']; ?>" alt="imagem atual" class="img-thumbnail img-fluid">
+                                            <img src="upload/banner/<?= $returnArrayUpdate['arquivo']; ?>" alt="imagem atual" class="img-thumbnail img-fluid">
                                         </div>
 
                                         <input type="text" name="id" id="id" style="display: none;" value="<?= $id; ?>">

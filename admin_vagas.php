@@ -43,7 +43,6 @@
                                         <td><?= $arrayReturnDb['assunto']; ?></td>
                                         <td><?= date("d/m/Y", strtotime($arrayReturnDb['datas'])); ?></td>
                                         <td class="text-center">
-                                            <a href="#" class="btn btn-outline-primary"><i class="far fa-eye"></i></a>
                                             <a href="edit_vaga.php?n=<?= $arrayReturnDb['id']; ?>" class="btn btn-outline-warning"><i class="far fa-edit"></i></a>
                                             <a href="app/delete_vaga.php?n=<?= $arrayReturnDb['id']; ?>" class="btn btn-outline-danger"><i class="far fa-trash-alt"></i></a>
 

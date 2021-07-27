@@ -20,20 +20,9 @@
   <div class="container">
         <div class="row" id="contact">
             <?php
-              if (isset($_GET['1'])) {
+              include "resources/alert.php";
             ?>
-                  <div class="alert alert-danger text-center"role="alert">
-                    <b>Falha no envio do email!</b>
-                  </div>
-              <?php
-                }else if (isset($_GET['2'])) {
-              ?>
-                <div class="alert alert-success text-center" role="alert">
-                  <b>E-mail enviado com sucesso!</b>
-                </div>
-              <?php
-                };
-              ?>
+             
 
             
             
@@ -66,14 +55,22 @@
 
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Mensagem:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" name="content" rows="3"></textarea>
+                        <textarea class="form-control" required id="exampleFormControlTextarea1"  name="content" rows="3"></textarea>
                       </div> <br>
                       <?php
                         if (isset($vaga)) {
                       ?>
-                       <div class="form-group"">
+                       <div class="form-group" style="display: none;">
+                        <input type="text" name="n" required id="n" class="form-control" value="<?= $_GET['n']; ?>">
+                      </div>
+
+                       <div class="form-group" style="display: none;">
+                        <input type="v" name="v" required id="v" class="form-control" value="<?= $_GET['v']; ?>">
+                      </div>
+
+                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Anexo:</label>
-                        <input type="file" name="anexo" id="anexo" class="form-control">
+                        <input type="file" name="anexo" required  id="anexo" class="form-control">
                       </div> <br>
                       <?php
                         }

@@ -23,12 +23,21 @@ if (isset($_FILES['anexo'])) {
 
 
 //variaveis
-
-$name = $_POST['name'];
-$email = $_POST['email'];
-$tel = $_POST['tel'];
-$title = $_POST['title'];
-$content = $_POST['content'];
+if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['tel']) && !empty($_POST['title']) && !empty($_POST['content'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $tel = $_POST['tel'];
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+} else {
+    if(isset($_POST['v']) && isset($_POST['n'])) {
+        $v = $_POST['v'];
+        $n = $_POST['n'];
+        header("Location: ../contato.php?v={$v}&n={$n}&code=9");
+    }else {
+        header("Location: ../contato.php?code=10");
+    }
+};
 
 $message = 
     "<p><b>Nome:</b> {$name}</p>
@@ -65,7 +74,6 @@ $mail = new PHPMailer(true);
     $mail->Body    = $message;
     // Enviar
     if(!$mail->send()) {
-        echo "erro";
         if (isset($newName)) {
             unlink("../anexo_email/{$newName}");
         }

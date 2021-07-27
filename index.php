@@ -104,7 +104,7 @@
           <img src="assets/img/Missao5.png" class="rounded mx-auto d-block img-info" alt="">
           <h4 class="text-center">Missão</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lorem augue, quis ullamcorper diam mattis non. Phasellus in blandit libero. Curabitur mollis tincidunt sollicitudin. Nam vitae pretium magna, sed aliquet massa. Mauris hendrerit lacinia dui, ut eleifend lorem imperdiet et. Suspendisse aliquam urna diam.
+            A missão que conceitua a razão da nossa existência: “Cuidar de nossos clientes com integridade, acolhimento, competência e preço competitivo.”
           </p>
         </div>
 
@@ -112,7 +112,13 @@
           <img src="assets/img/Visao5.png" class="rounded mx-auto d-block img-info" alt="">
           <h4 class="text-center">Visão</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lorem augue, quis ullamcorper diam mattis non. Phasellus in blandit libero. Curabitur mollis tincidunt sollicitudin. Nam vitae pretium magna, sed aliquet massa. Mauris hendrerit lacinia dui, ut eleifend lorem imperdiet et. Suspendisse aliquam urna diam.
+            <strong>Cliente</strong> – “Somos a solução em saúde. Uma instituição justa, segura e humanizada que atende de forma personalizada com agilidade e resolutividade.”
+          </p>
+            <strong>Colaboradores</strong> – “Temos orgulho de fazer parte do Sepaco que proporciona ambiente para realização, desenvolvimento profissional e contribui para a qualidade de vida.”
+          </p>
+          
+          <p>
+            <strong>Conselho</strong> – “O sistema integrado de saúde que saiu do PAPEL, faz a diferença, atendendo às expectativas das empresas associadas.”
           </p>
         </div>
 
@@ -120,7 +126,18 @@
           <img src="assets/img/Valores5.png" class="rounded mx-auto d-block img-info" alt="">
           <h4 class="text-center">Valores</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lorem augue, quis ullamcorper diam mattis non. Phasellus in blandit libero. Curabitur mollis tincidunt sollicitudin. Nam vitae pretium magna, sed aliquet massa. Mauris hendrerit lacinia dui, ut eleifend lorem imperdiet et. Suspendisse aliquam urna diam.
+              <strong> Integridade</strong> – “Praticamos sempre princípios de honestidade, respeito, ética e justiça.”
+          </p>
+
+          <p>
+            <strong>Comprometimento</strong> – “Cumprimos nossos objetivos com iniciativa e responsabilidade.”
+          </p>
+              
+          <p>
+           <strong>Trabalho em equipe</strong> – “Integramos as áreas e os profissionais na busca das melhores soluções para a instituição e crescimento individual.”
+          </p>         
+          <p>
+              <strong>Saber</strong> – “Buscamos e difundimos conhecimento pessoal, profissional e institucional.”
           </p>
         </div>
   </main>

@@ -1,4 +1,8 @@
 <?php
+   if (isset($_GET['code'])) {
+    $code = $_GET['code'];
+   }
+   
                                 if(isset($code) and $code =="1") {
                             ?>
                             <div class="alert alert-success text-center" role="alert">
@@ -54,6 +58,20 @@
                                                                         </div>
                                             
                                                                     <?php
-                                                                        }
+                                                                        }else if(isset($code) and $code == "9") {
+                                                                            ?>
+                                                                                <div class="alert alert-danger text-center" role="alert">
+                                                                                    Preencha todos os campos!
+                                                                                </div>
+                                                    
+                                                                            <?php
+                                                                            }else if(isset($code) and $code == "10") {
+                                                                                ?>
+                                                                                    <div class="alert alert-danger text-center" role="alert">
+                                                                                        Preencha todos os campos!
+                                                                                    </div>
+                                                        
+                                                                                <?php
+                                                                                }
                                                                                 
                             ?>
