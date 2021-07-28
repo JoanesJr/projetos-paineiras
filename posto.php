@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="backgroung-clinic" id="backgroung-clinic">
+    <div class="bg-primary bd-gradient" id="backgroung-clinic">
         <div class="row  justify-content-center">
             <div class="col-12">
                 <h3 class="text-center text-white">Especialidade</h3>
