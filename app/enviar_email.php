@@ -82,6 +82,6 @@ $mail = new PHPMailer(true);
         if (isset($newName)) {
             unlink("../anexo_email/{$newName}");
         }
-        header("Location: ../contato.php?2");
+        header("Location: ../contato.php?code=11");
     }
 

@@ -72,6 +72,13 @@
                                                                                     </div>
                                                         
                                                                                 <?php
-                                                                                }
+                                                                                }else if(isset($code) and $code == "11") {
+                                                                                    ?>
+                                                                                        <div class="alert alert-success text-center" role="alert">
+                                                                                           Email enviado com sucesso!
+                                                                                        </div>
+                                                            
+                                                                                    <?php
+                                                                                    }
                                                                                 
                             ?>

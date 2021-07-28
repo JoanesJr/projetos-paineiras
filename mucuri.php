@@ -5,7 +5,7 @@
 
     <div class="container" id="content"> <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Hospital Paineiras em  Itabatã</h3>
+                <h3 class="text-center">Clínica Paineiras em  Mucuri</h3>
             </div>
         </div>
         <div class="row justify-content-center">
