@@ -1,6 +1,6 @@
-Meu Primeiro Repositório 
+﻿Meu Primeiro Repositório 
 ======================== 
 
 O Git/GitHub são legais!
 
-Crie a pasta "upload"
+Mova a pasta "projetos-paineiras" para o mesmo nível da pasta "htdocs".
