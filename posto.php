@@ -1,6 +1,3 @@
-<?php
-    include "resources/header.php";
-?>
 
 
     <div class="container" id="content">
@@ -134,6 +131,3 @@
     </div>
     </div>
 
-
-<?php
-    include "resources/footer.php";

@@ -11,6 +11,8 @@
   $active = true;
 ?>
 
+<section id="contentAll">
+
     <div class="row" id="carrouseurs">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -44,15 +46,6 @@
 
     <div class="container" id="content">
         <div class="row infos">
-            <!-- <div class="block col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
-                <img src="assets/img/one1.png" alt="icone de medalha de primeiro colocado" class="rounded mx-auto d-block img-info">
-                <h3 class="text-center">
-                    Controle de Infecções
-                </h3>
-                <p>
-                    O Hospital Paineiras Rede de Saúde Sepaco é pioneiro no controle de infecções hospitales, sendo um exemplo dentro do âmbito.
-                </p>
-            </div> -->
             <div class="block col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
                 <img src="assets/img/ambulance3.png" alt="icone de ambulância" class="rounded mx-auto d-block img-info">
                 <h3 class="text-center">
@@ -141,6 +134,8 @@
           </p>
         </div>
   </main>
+
+</section>
 
   <?php
 

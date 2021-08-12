@@ -1,8 +1,3 @@
-<?php
-
-include "resources/header.php";
-
-?>
 
 
 <div class="container">
@@ -73,8 +68,3 @@ include "resources/header.php";
             </div>
         </div>
     </div>
-
-
-    <?php
-
-    include "resources/footer.php";

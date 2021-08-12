@@ -1,5 +1,4 @@
 <?php
-    include "resources/header.php";
     require_once "app/db.php";
     
 
@@ -66,5 +65,3 @@
         </div>
         </div>
 
-<?php
-    include "resources/footer.php";

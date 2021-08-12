@@ -1,8 +1,3 @@
-<?php
-
-    include "resources/header.php";
-
-?>
 
     <div class="container" id="content">
         <div class="row">
@@ -226,7 +221,3 @@
         </div>
     </div>
 
-
-<?php
-
-    include "resources/footer.php";

@@ -1,7 +1,3 @@
-<?php
-    include "resources/header.php";
-?>
-
 
     <div class="container" id="content"> <div class="row">
             <div class="col-12">
@@ -101,7 +97,3 @@
     </div>
 
     </div>
-
-<?php
-
-    include "resources/footer.php";

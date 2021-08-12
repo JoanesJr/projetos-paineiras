@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="css/img_local.css">
     <script src="https://kit.fontawesome.com/f95c8ca5b5.js" crossorigin="anonymous"></script>
     <div id="fb-root"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+  
+  </head>
 <body>
 
     <div class="container">
@@ -23,7 +25,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="index.php">
+                      <a id="logo" class="navbar-brand" href="index.php">
                           <img src="assets/img/logo.png" class="logo-img-navbar" alt="">
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,31 +34,31 @@
                       <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="index.php#about">Sobre</a>
+                            <a class="nav-link text-body" id="sobre" href="index.php#about">Sobre</a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-body" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Unidades
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                              <li><a class="dropdown-item" href="itabata.php">Itabatã (Sede)</a></li>
-                              <li><a class="dropdown-item" href="teixeira.php">Teixeira de Freitas</a></li>
-                              <li><a class="dropdown-item" href="mucuri.php">Mucuri</a></li>
-                              <li><a class="dropdown-item" href="posto.php">Posto da Mata</a></li>
-                              <li><a class="dropdown-item" href="imperatriz.php">Imperatriz</a></li>
+                              <li><a class="dropdown-item" id="itabata" href="#">Itabatã (Sede)</a></li>
+                              <li><a class="dropdown-item" id="teixeira" href="#">Teixeira de Freitas</a></li>
+                              <li><a class="dropdown-item" id="mucuri" href="#">Mucuri</a></li>
+                              <li><a class="dropdown-item" id="posto" href="#">Posto da Mata</a></li>
+                              <li><a class="dropdown-item" id="imperatriz" href="#">Imperatriz</a></li>
                             </ul>
                           </a>
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="convenio.php">Convenios</a>
+                            <a class="nav-link text-body" id="convenio" href="#">Convenios</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="agendamento.php">Agendamento</a>
+                            <a class="nav-link text-body" id="agendamento" href="#">Agendamento</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="contato.php">Contato</a>
+                            <a class="nav-link text-body" id="contato" href="#">Contato</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-body" href="vagas.php">Vagas de Emprego</a>
+                            <a class="nav-link text-body" id="vagas" href="#">Vagas de Emprego</a>
                           </li>
                          
                         </ul>
@@ -67,3 +69,5 @@
             </div>
         </div>
     </div>
+
+  

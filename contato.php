@@ -1,6 +1,5 @@
 <?php
 
-  include "resources/header.php";
   require_once "app/db.php";
 
   if (isset($_GET['v']) and isset($_GET['n'])) {
@@ -19,20 +18,13 @@
 ?>
   <div class="container">
         <div class="row" id="contact">
-            <?php
-              include "resources/alert.php";
-            ?>
-             
-
-            
-            
 
             <div class="col-12">
                 <h3 class="text-center">Entre em Contato</h3>
             </div>
            
             <div class="col-12 col-sm-12 col-md-12 col-ld-12 col-xs-12 col-xxl-12">
-                <form class="form-group" method="post" action="app/enviar_email.php" enctype="multipart/form-data">
+                <form class="form-group" enctype="multipart/form-data" id="formEmail">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nome:</label>
                       <input type="text" class="form-control" required id="exampleInputName" name="name" aria-describedby="nameHelp">
@@ -48,8 +40,8 @@
                       <div id="telHelp" class="form-text">Informe um telefone válido.</div>
 
                       <div class="mb-3" style="<?= isset($vaga) ? 'display: none;' : '' ?>">
-                        <label for="exampleInputEmail1" class="form-label">Assunto:</label>
-                          <input type="text" class="form-control" <?= isset($vaga) ? '' : 'required' ?> id="exampleInputName" name="title" aria-describedby="nameHelp" <?= isset($vaga) ? "value = '$nameVaga';" : '' ?>>
+                        <label for="exampleInputAssunto" class="form-label">Assunto:</label>
+                          <input type="text" class="form-control" <?= isset($vaga) ? '' : 'required' ?> id="exampleInputAssunto" name="title" aria-describedby="nameHelp" <?= isset($vaga) ? "value = '$nameVaga';" : '' ?>>
                         <div id="emailHelp" class="form-text">Informe assunto do email.</div>
                     </div>
 
@@ -80,20 +72,92 @@
 
 
                       <div class="text-center">
-                        <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                        <button type="submit" class="btn btn-outline-primary" id="btnEmail">Enviar</button>
                       </div>
                     
                   </form>
-            </div>
+
+                  <div id="response" style="padding: 10px; margin-top: 20px; margin-bottom: -16px;">
+                    <div id="loader" class="d-flex flex-column justify-content-center align-items-center" style="max-width: 120px; max-height: 60px;"></div>
+                    <div id="alertMessage" class="alert text-center" style="border-radius:22px; margin-top: 35px;" role="alert"></div>
+                  </div>
+                  
+                </div>
           </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
         <script>
-            setTimeout(function() {
-             $('.alert').hide();
-            }, 5000); // <-- time in milliseconds
+              function alert() {
+                setTimeout(function() {
+                $('.alert').hide();
+                $('#loader').hide()
+                }, 5000); // <-- time in milliseconds
+              } 
+           
+
+            $("#btnEmail").on('click', (e) => {
+              e.preventDefault()
+              let enviaEmail = ""
+
+              let name = $("#exampleInputName").val()
+              let val = $("#exampleInputEmail1").val()
+              let tel = $("#exampleInputTel").val()
+              let assunt = $("#exampleInputAssunto").val()
+              let msg = $("#exampleFormControlTextarea1").val()
+              let anexo = $("#anexo").val()
+              
+              if (name != '' && val != '' && tel != '' && assunt != '' && msg != '' && anexo != '') {
+                 enviaEmail = "enviar_email.php"
+              } else {
+                 enviaEmail = "asasas.pdgp"
+              }
+
+              let formEmail = $("#formEmail").serialize();
+              $.ajax({
+              type: 'post',
+              url: `app/${enviaEmail}`,
+              data: formEmail,
+
+              beforeSend: () => {
+                $("#loader").html("<img class='img-fluid' src='assets/img/loader.gif'>")
+                $("#loader").css({'margin': '2px auto', 'margin-top': '18px', 'margin-bottom': '-6px', 'padding': '8px', 'max-width': '150px', 'max-height': '80px;', 'object-fit': 'cover', 'object-position': 'center'})
+                $("#response").css({'margin-top': '20px', 'padding': '10px'})
+              },
+
+              success: () => {
+                setTimeout( () => {
+                  $("#contentAll").load("contato.php")   
+                }, 5000)
+                setTimeout(() => {
+                    $("#response").css({'margin-top': '20px', 'padding': '10px'})
+                    $("#loader").html("<img class='img-fluid' src='assets/img/success.gif'>")
+                    $("#loader").css({'margin': '2px auto', 'margin-top': '12px', 'margin-bottom': '-6px','padding': '8px', 'max-width': '150px', 'max-height': '80px;', 'object-fit': 'cover', 'object-position': 'center'})
+                    $("#alertMessage").addClass("alert-success")
+                    $("#alertMessage").html("Email enviado com sucesso!")      
+                  }, 1500) //tempo de duração do loader;
+              },
+
+              error: () => {
+                setTimeout( () => {
+                  $("#contentAll").load("contato.php")   
+                }, 5000)
+                setTimeout(() => {
+                    $("#response").css({'margin-top': '20px', 'padding': '10px'})
+                    $("#loader").html("<img class='img-fluid' src='assets/img/failed.gif'>")
+                    $("#loader").css({'margin': '2px auto', 'margin-top': '12px', 'margin-bottom': '-6px','padding': '8px', 'max-width': '150px', 'max-height': '80px;', 'object-fit': 'cover', 'object-position': 'center'})
+                    $("#alertMessage").addClass("alert-danger")
+                    $("#alertMessage").html("Preencha todos os campos!")       
+                  }, 1500) //tempo de duração do loader;
+
+                  alert()
+              },
+                
+              }
+
+
+            )
+          })
+
+            
         </script>
-<?php
-  
-  include "resources/footer.php";
