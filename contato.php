@@ -1,8 +1,8 @@
 <?php
-
   require_once "app/db.php";
 
   if (isset($_GET['v']) and isset($_GET['n'])) {
+    include "resources/header.php";
     $vaga = $_GET['v'];
     $idVaga = $_GET['n'];
 
@@ -88,7 +88,8 @@
 
         
         <script>
-              function alert() {
+          $(document).ready( () => {
+            function alert() {
                 setTimeout(function() {
                 $('.alert').hide();
                 $('#loader').hide()
@@ -120,7 +121,7 @@
               data: formEmail,
 
               beforeSend: () => {
-                $("#loader").html("<img class='img-fluid' src='assets/img/loader.gif'>")
+                $("#loader").html("<img class='img-fluid' src='assets/img/loader2.gif'>")
                 $("#loader").css({'margin': '2px auto', 'margin-top': '18px', 'margin-bottom': '-6px', 'padding': '8px', 'max-width': '150px', 'max-height': '80px;', 'object-fit': 'cover', 'object-position': 'center'})
                 $("#response").css({'margin-top': '20px', 'padding': '10px'})
               },
@@ -149,8 +150,6 @@
                     $("#alertMessage").addClass("alert-danger")
                     $("#alertMessage").html("Preencha todos os campos!")       
                   }, 1500) //tempo de duração do loader;
-
-                  alert()
               },
                 
               }
@@ -158,6 +157,6 @@
 
             )
           })
+          })
 
-            
         </script>

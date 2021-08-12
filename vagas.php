@@ -54,14 +54,12 @@
                             <img src="upload/<?= $file; ?>" alt="vaga de emprego" class="img-vaga">
                             </div>
                         </div>
-                        <a href="contato.php?v=1&n=<?= $arrayReturnDb['id'];?>" class="btn btn-lg btn-invite">Candidate-se</a>
+                        <div class="d-none" id="idAjax" value="<?= $arrayReturnDb['id']; ?>"></div>
+                        <a href="contato.php?v=1&n=<?= $arrayReturnDb['id'];?>" id="sendVaga" class="btn btn-lg btn-invite">Candidate-se</a>
             </div>
             
                 <?php
                     };
                 ?>
-            
-            
         </div>
         </div>
-
