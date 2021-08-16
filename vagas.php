@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="d-none" id="idAjax" value="<?= $arrayReturnDb['id']; ?>"></div>
-                        <a href="contato.php?v=1&n=<?= $arrayReturnDb['id'];?>" id="sendVaga" class="btn btn-lg btn-invite">Candidate-se</a>
+                        <a href="#" id="<?= $arrayReturnDb['id'];?>" name="idVagaAjax" class="btn btn-lg btn-invite">Candidate-se</a>
             </div>
             
                 <?php
@@ -63,3 +63,21 @@
                 ?>
         </div>
         </div>
+
+        <script>
+            $(document).ready( () => {
+                $(".btn-invite").on('click', element => {
+                    let id = element.target.id          
+                    $.ajax( {
+                    type: "get",
+                    url: "contato.php",
+                    data: id,
+
+                    success: () => {
+                        $("#contentAll").load("contato.php?n="+id)
+                    }
+                })
+                })
+                
+            })
+        </script>

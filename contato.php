@@ -1,15 +1,14 @@
 <?php
   require_once "app/db.php";
 
-  if (isset($_GET['v']) and isset($_GET['n'])) {
-    include "resources/header.php";
-    $vaga = $_GET['v'];
-    $idVaga = $_GET['n'];
+  if (isset($_GET['n'])) {
+    
+    $vaga = $_GET['n'];
 
     $db = new db();
     $connectDb = $db->connectDatabase();
 
-    $sqlVaga = "SELECT * FROM jobs WHERE id = '{$idVaga}'";
+    $sqlVaga = "SELECT * FROM jobs WHERE id = '{$vaga}'";
     $sendSql = mysqli_query($connectDb, $sqlVaga);
     $returDbVaga = mysqli_fetch_array($sendSql);
     $nameVaga = $returDbVaga['assunto'];
@@ -24,7 +23,7 @@
             </div>
            
             <div class="col-12 col-sm-12 col-md-12 col-ld-12 col-xs-12 col-xxl-12">
-                <form class="form-group" enctype="multipart/form-data" id="formEmail">
+                <form class="form-group" enctype="multipart/form-data" id="formEmail" name="formEmail">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nome:</label>
                       <input type="text" class="form-control" required id="exampleInputName" name="name" aria-describedby="nameHelp">
@@ -56,9 +55,9 @@
                         <input type="text" name="n" required id="n" class="form-control" value="<?= $_GET['n']; ?>">
                       </div>
 
-                       <div class="form-group" style="display: none;">
+                       <!-- <div class="form-group" style="display: none;">
                         <input type="v" name="v" required id="v" class="form-control" value="<?= $_GET['v']; ?>">
-                      </div>
+                      </div> -->
 
                        <div class="form-group">
                         <label for="exampleFormControlTextarea1">Anexo:</label>
@@ -113,12 +112,16 @@
               } else {
                  enviaEmail = "asasas.pdgp"
               }
+              // anexo.replace("C:\\fakepath", "")
 
-              let formEmail = $("#formEmail").serialize();
+              let formEmail = new FormData($("form[name='formEmail']")[0])
+              console.log(formEmail)
               $.ajax({
               type: 'post',
               url: `app/${enviaEmail}`,
               data: formEmail,
+              processData: false,
+              contentType: false,
 
               beforeSend: () => {
                 $("#loader").html("<img class='img-fluid' src='assets/img/loader2.gif'>")
