@@ -52,8 +52,9 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <!-- <i class="fas fa-laugh-wink"></i> -->
+                    <img src="../assets/img/adm-icon1t.png" class="img-fluid" alt="logo hospital paineiras">
                 </div>
                 <div class="sidebar-brand-text mx-3">Paineiras Admin <sup></sup></div>
             </a>

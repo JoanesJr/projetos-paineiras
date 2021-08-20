@@ -40,7 +40,7 @@
     }
 
  $sqlUpdate = "UPDATE banners SET nome = '{$name}', arquivo = '{$newName}', data = NOW()  WHERE id = {$id}";
-echo $sqlUpdate;
+    echo $sqlUpdate;
     if (mysqli_query($connecDb, $sqlUpdate)) {
         header('Location: ../admin_banner.php?code=3');
     }else {

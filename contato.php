@@ -101,21 +101,32 @@
               let enviaEmail = ""
 
               let name = $("#exampleInputName").val()
+              let nameElement = $("#exampleInputName")
               let val = $("#exampleInputEmail1").val()
+              let valElement = $("#exampleInputEmail1")
               let tel = $("#exampleInputTel").val()
+              let telElement = $("#exampleInputTel")
               let assunt = $("#exampleInputAssunto").val()
+              let assuntElement = $("#exampleInputAssunto")
               let msg = $("#exampleFormControlTextarea1").val()
+              let msgElement = $("#exampleFormControlTextarea1")
               let anexo = $("#anexo").val()
+              let anexoElement = $("#anexo")
+              let infos = [name, val, tel, assunt, msg, anexo]
+              let elements = [nameElement, valElement, telElement, assuntElement, msgElement, anexoElement]
+              let notNumber = false;
+              let numberTel = isNaN(tel)
               
               if (name != '' && val != '' && tel != '' && assunt != '' && msg != '' && anexo != '') {
-                 enviaEmail = "enviar_email.php"
+                numberTel == true ? notNumber = true : notNumber = false
+                numberTel == true ? enviaEmail = "asasas.pdgp" : enviaEmail = "enviar_email.php"
+                 
               } else {
                  enviaEmail = "asasas.pdgp"
               }
-              // anexo.replace("C:\\fakepath", "")
 
               let formEmail = new FormData($("form[name='formEmail']")[0])
-              console.log(formEmail)
+              if (formEmail)
               $.ajax({
               type: 'post',
               url: `app/${enviaEmail}`,
@@ -151,7 +162,18 @@
                     $("#loader").html("<img class='img-fluid' src='assets/img/failed.gif'>")
                     $("#loader").css({'margin': '2px auto', 'margin-top': '12px', 'margin-bottom': '-6px','padding': '8px', 'max-width': '150px', 'max-height': '80px;', 'object-fit': 'cover', 'object-position': 'center'})
                     $("#alertMessage").addClass("alert-danger")
-                    $("#alertMessage").html("Preencha todos os campos!")       
+                    $("#alertMessage").html("Preencha todos os campos!")  
+                    for (let c = 0; c <=5; c++) {
+                      if (infos[c] == '') {
+                        elements[c].css('border', '1px solid #c73232');
+                  }
+                  if (notNumber) {
+                    $('#exampleInputTel').css('font-weight', 'bolder')
+                    $('#exampleInputTel').css('border', '1px solid #c73232')
+                    $('#telHelp').css('font-weight', 'bolder')
+                    $('#telHelp').css('color', 'red')
+                  }
+                }     
                   }, 1500) //tempo de duração do loader;
               },
                 
