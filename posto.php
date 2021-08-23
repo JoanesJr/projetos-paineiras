@@ -3,7 +3,7 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-12">
-                <h3 class="text-center">Clínica Hospital Paineiras em Posto da Mata</h3>
+                <h3 class="text-center">Clínica Paineiras em Posto da Mata</h3>
             </div>
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
