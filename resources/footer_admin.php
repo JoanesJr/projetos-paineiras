@@ -1,39 +1,39 @@
      <!-- Card Body -->
      <div class="card-body">
-                                    <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+         <div class="chart-area">
+             <canvas id="myAreaChart"></canvas>
+         </div>
+     </div>
+     </div>
+     </div>
 
-                       
-                <!-- /.container-fluid -->
 
-            </div>
-            <!-- End of Main Content -->
+     <!-- /.container-fluid -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white" style="margin-top: -350px;">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Hospital Paineiras 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
+     </div>
+     <!-- End of Main Content -->
 
-        </div>
-        <!-- End of Content Wrapper -->
+     <!-- Footer -->
+     <footer class="sticky-footer bg-white" style="margin-top: -350px;">
+         <div class="container my-auto">
+             <div class="copyright text-center my-auto">
+                 <span>Copyright &copy; Hospital Paineiras 2021</span>
+             </div>
+         </div>
+     </footer>
+     <!-- End of Footer -->
 
-    </div>
-    <!-- End of Page Wrapper -->
+     </div>
+     <!-- End of Content Wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
+     </div>
+     <!-- End of Page Wrapper -->
 
-</body>
+     <!-- Scroll to Top Button-->
+     <a class="scroll-to-top rounded" href="#page-top">
+         <i class="fas fa-angle-up"></i>
+     </a>
 
-</html>
+     </body>
+
+     </html>

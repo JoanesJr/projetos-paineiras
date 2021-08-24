@@ -5,6 +5,11 @@
             <div class="col-12">
                 <h3 class="text-center">Clínica Paineiras em Posto da Mata</h3>
             </div>
+            <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+                <img src="assets/img/posto-da-mata.jpeg" class="img-local img-fluid" alt="imagem do hospital paineiras">
+            </div>
+        </div>
             <div class="wrapper col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
                 <div class="h_iframe">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3796.935776209022!2d-39.85890518551415!3d-17.888456382690993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xcaaf81f366d637%3A0xd115f80d29e48f18!2sR.%20Pedro%20Carolino%20Costa%2C%201292%2C%20Nova%20Vi%C3%A7osa%20-%20BA%2C%2045920-000!5e0!3m2!1spt-PT!2sbr!4v1626218527116!5m2!1spt-PT!2sbr" width="1130" height="450" style="border: 2px double blue; border-radius: 12px; padding: 10px;"allowfullscreen="" loading="lazy"></iframe>

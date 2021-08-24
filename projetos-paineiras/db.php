@@ -1,13 +1,15 @@
 <?php
 
-class db {
+class db
+{
 
     private $host = 'localhost';
     private $user = 'root';
     private $password = '';
     private $database = 'paineiras';
 
-    public function connectDatabase() {
+    public function connectDatabase()
+    {
         //mysqli_connect(local do bando de dados, usuario, senha, nome)
         $connectDb = mysqli_connect($this->host, $this->user, $this->password, $this->database);
 
@@ -15,6 +17,4 @@ class db {
         mysqli_set_charset($connectDb, 'utf8');
         return $connectDb;
     }
-
-
 }

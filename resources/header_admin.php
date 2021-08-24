@@ -1,17 +1,17 @@
 <?php
-    session_start();
-    require_once "app/db.php";
+session_start();
+require_once "app/db.php";
 
-    if (!isset($_SESSION['user']) and !isset($_SESSION['password'])) {
-        header('Location: login.php?erro=2');
-    }
+if (!isset($_SESSION['user']) and !isset($_SESSION['password'])) {
+    header('Location: login.php?erro=2');
+}
 
-    $db = new db();
-    $connectDb = $db->connectDatabase();
+$db = new db();
+$connectDb = $db->connectDatabase();
 
-    $sql = "SELECT * FROM jobs";
+$sql = "SELECT * FROM jobs";
 
-    $returnDb = mysqli_query($connectDb, $sql);
+$returnDb = mysqli_query($connectDb, $sql);
 ?>
 
 <!DOCTYPE html>
@@ -26,19 +26,18 @@
     <meta name="author" content="">
 
     <title>Paineiras - Admin</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.png" >
+    <link rel="shortcut icon" href="../assets/img/favicon.png">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!-- Custom fonts for this template-->
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style_vaga.css">
 
-    <script src="https://kit.fontawesome.com/0ad81bcc79.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/0ad81bcc79.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ad81bcc79.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ad81bcc79.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -81,7 +80,7 @@
                 </a>
 
             </li>
-            
+
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -100,14 +99,12 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" style="justify-content:space-between;">
-                        <span class="logout"> <?= $_SESSION['user'] ?> </span>
-                        <a href="app/sair.php" class="logout text-dark"><span class="logout">Sair</span></a>
-                    
+                    <span class="logout"> <?= $_SESSION['user'] ?> </span>
+                    <a href="app/sair.php" class="logout text-dark"><span class="logout">Sair</span></a>
+
 
                 </nav>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    

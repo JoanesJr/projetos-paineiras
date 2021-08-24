@@ -20,14 +20,13 @@ if ($sendSql) {
     //mysqli_fetch_array($) -> transforma o resource em array
     $returnDb = mysqli_fetch_array($sendSql);
 
-    if($returnDb['user'] == $userLogin and $returnDb['password'] == $userPassword) {
+    if ($returnDb['user'] == $userLogin and $returnDb['password'] == $userPassword) {
         $_SESSION['user'] = $returnDb['user'];
         $_SESSION['password'] = $returnDb['password'];
         header('Location: ../admin.php');
-    }else {
+    } else {
         header('Location: ../login.php?erro=1');
     }
 } else {
     echo "OCORREU UM ERRO AO CONSULTAR O BANCO DE DADOS. CONTATE O ADMINISTRADOR";
 }
-
