@@ -20,7 +20,7 @@
                                         <img class="img-empresa" src="assets/img/bradesco.png" alt="Logo bradesco saúde">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/unimed_2.png" alt="Logo unimed">
+                                        <img class="img-empresa" src="assets/img/unimed.png" alt="Logo unimed">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/samp.png" alt="Logo Samp">
@@ -30,7 +30,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="img-parceiro col-12 col-sm-12 col-md-6 col-ld-6 col-xs-6 col-xxl-6 text-center">
-                                        <img class="img-empresa" src="assets/img/sepaco.png" alt="Logo Sepaco">
+                                        <img class="img-empresa" src="assets/img/sepacologo.png" alt="Logo Sepaco">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-6 col-ld-6 col-xs-6 col-xxl-6 text-center">
                                         <img class="img-empresa" src="assets/img/mediservice.png" alt="Logo mediservice">
@@ -111,7 +111,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/sulmed.png" alt="Logo sulmed">
+                                        <img class="img-empresa" src="assets/img/sulmedlogo.png" alt="Logo sulmed">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/taruma.png" alt="Logo Tarumã">
@@ -152,10 +152,10 @@
                                             <img class="img-empresa" src="assets/img/bradesco.png" alt="Logo bradesco saúde">
                                         </div>
                                         <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                            <img class="img-empresa" src="assets/img/life_saude.png" alt="Logo life saúde">
+                                            <img class="img-empresa" src="assets/img/life-saude.png" alt="Logo life saúde">
                                         </div>
                                         <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                            <img class="img-empresa" src="assets/img/sepaco.png" alt="Logo sepaco">
+                                            <img class="img-empresa" src="assets/img/sepacologo.png" alt="Logo sepaco">
                                         </div>
                                     </div>
                                 </div>
