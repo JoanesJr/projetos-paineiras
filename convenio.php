@@ -78,7 +78,7 @@
                                         <img class="img-empresa" src="assets/img/casa-estudante.png" alt="Logo Casa dos Estudantes">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/cdl.png" alt="Logo CDL">
+                                        <img class="img-empresa" src="assets/img/cdllogo.png" alt="Logo CDL">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/georgia.png" alt="Logo Georgia">
@@ -88,7 +88,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/gnv.png" alt="Logo GNV">
+                                        <img class="img-empresa" src="assets/img/gnvlogo.png" alt="Logo GNV">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/greje.png" alt="Logo Greje">
@@ -114,7 +114,7 @@
                                         <img class="img-empresa" src="assets/img/sulmedlogo.png" alt="Logo sulmed">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/taruma.png" alt="Logo Tarumã">
+                                        <img class="img-empresa" src="assets/img/tarumalogo.png" alt="Logo Tarumã">
                                     </div>
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/Voitch-logo.png" alt="Logo Voitch">
