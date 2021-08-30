@@ -96,14 +96,11 @@
                                     <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
                                         <img class="img-empresa" src="assets/img/optica.png" alt="Logo Óptica Exclusive">
                                     </div>
-                                    <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
+                                    <div class="img-parceiro col-12 col-sm-12 col-md-6 col-ld-6 col-xs-6 col-xxl-6 text-center">
                                         <img class="img-empresa" src="assets/img/sancol.png" alt="Logo Sancol">
                                     </div>
-                                    <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
+                                    <div class="img-parceiro col-12 col-sm-12 col-md-6 col-ld-6 col-xs-6 col-xxl-6 text-center">
                                         <img class="img-empresa" src="assets/img/santa_amelia.png" alt="Logo santa amelia">
-                                    </div>
-                                    <div class="img-parceiro col-12 col-sm-12 col-md-4 col-ld-4 col-xs-4 col-xxl-4 text-center">
-                                        <img class="img-empresa" src="assets/img/sind_empresa.png" alt="Logo sind empresa">
                                     </div>
 
                                 </div>

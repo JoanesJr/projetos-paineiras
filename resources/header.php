@@ -25,10 +25,10 @@
   <div class="container">
     <div class="row" id="navbar">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbarTop">
           <div class="container-fluid">
             <a id="logo" class="navbar-brand" href="index.php">
-              <img src="assets/img/logo.png" class="logo-img-navbar" alt="">
+              <img src="assets/img/logo.png" class="logo-img-navbar" alt="" id="logonavbar">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>

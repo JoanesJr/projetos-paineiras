@@ -1,6 +1,12 @@
 <!-- fecha container -->
 </div>
 
+<div class="d-flex justify-content-end">
+  <a href="#navbarTop" class="btn btn-lg">
+    <i class="fas fa-angle-double-up" style="width: 100px; color: rgb(3, 3, 37);"></i>
+  </a>
+</div>
+
 <footer class="baseboard" id="baseboard">
   <div class="container">
     <div class="row">
@@ -34,10 +40,7 @@
   </div>
 </footer>
 
-</script>
-
 <script src="../assets/js/script-footer.js"></script>
-
 </body>
 
 </html>
