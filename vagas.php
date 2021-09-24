@@ -51,7 +51,7 @@ $numRows = mysqli_num_rows($returnDb);
 
                     <div class="row">
                         <div class="col-12">
-                            <img src="upload/<?= $file; ?>" alt="vaga de emprego" class="img-vaga">
+                            <img src="upload/<?= $file; ?>" alt="vaga de emprego" class="img-fluid">
                         </div>
                     </div>
                     <div class="d-none" id="idAjax" value="<?= $arrayReturnDb['id']; ?>"></div>
