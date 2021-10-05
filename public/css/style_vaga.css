@@ -1,0 +1,291 @@
+
+
+@media screen and (max-width: 1400px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 500px;
+        max-height: 350px;
+        min-width: 500px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 420px;
+        max-height: 350px;
+        min-width: 420px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 360px;
+        max-height: 350px;
+        min-width: 360px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 290px;
+        max-height: 350px;
+        min-width: 290px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 400px;
+        max-height: 350px;
+        min-width: 400px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 380px;
+        max-height: 350px;
+        min-width: 380px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 320px;
+        max-height: 350px;
+        min-width: 320px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 250px;
+        max-height: 350px;
+        min-width: 250px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 350px;
+        min-width: 260px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 220px;
+        max-height: 350px;
+        min-width: 220px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+/* 
+=============== */
+
+@media screen and (max-width: 1400px) {
+    .img-edit {
+        margin-top: 10px;
+        max-width: 200px;
+        max-height: 100px;
+        min-width: 500px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 420px;
+        max-height: 350px;
+        min-width: 420px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 360px;
+        max-height: 350px;
+        min-width: 360px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 290px;
+        max-height: 350px;
+        min-width: 290px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 400px;
+        max-height: 350px;
+        min-width: 400px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 380px;
+        max-height: 350px;
+        min-width: 380px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 320px;
+        max-height: 350px;
+        min-width: 320px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 350px;
+        min-width: 260px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .img-vaga {
+        margin-top: 10px;
+        max-width: 220px;
+        max-height: 350px;
+        min-width: 220px;
+        min-height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+}

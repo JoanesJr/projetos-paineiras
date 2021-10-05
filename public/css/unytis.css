@@ -1,0 +1,479 @@
+
+#backgroung-clinic {
+    background-color: #197abc;
+    padding: 8px;
+}
+
+.clinic {
+    background-color: white;
+    margin: 15px;
+}
+
+.justify-content-center h3 {
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.clinic .header h4 {
+    height: 80px;
+    background-color: #012c49;
+    width: 107.5%;
+    padding: 10px;
+    color: white;
+    position: relative;
+    left: -12px;
+    top: -12px;
+}
+
+.img-clinic {
+    max-width: 107.5%;
+    max-height: 200px;
+    min-width: 107.5%;
+    min-height: 274px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: -12px;
+}
+
+.img-footer {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+    .img-clinic {
+        max-width: 107.8%;
+        max-height: 200px;
+        min-width: 107.8%;
+        min-height: 274px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 107.8%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img-clinic {
+        max-width: 108.7%;
+        max-height: 200px;
+        min-width: 108.7%;
+        min-height: 274px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 108.7%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -12px;
+    }
+}
+@media screen and (max-width: 1086px) {
+    .img-clinic {
+        max-width: 109.7%;
+        max-height: 200px;
+        min-width: 109.7%;
+        min-height: 274px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 109.7%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -12px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .img-clinic {
+        max-width: 110.6%;
+        max-height: 280px;
+        min-width: 110.6%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 110.6%;
+        padding: 10px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-clinic {
+        max-width: 111.1%;
+        max-height: 280px;
+        min-width: 111.1%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 111.1%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .img-clinic {
+        max-width: 112.6%;
+        max-height: 280px;
+        min-width: 112.6%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 112.6%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 825px) {
+    .img-clinic {
+        max-width: 113.9%;
+        max-height: 280px;
+        min-width: 113.9%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 113.9%;
+        padding: 10px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-clinic {
+        max-width: 106.5%;
+        max-height: 280px;
+        min-width: 106.5%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 106.5%;
+        padding: 10px;
+        color: white;
+    }
+}
+@media screen and (max-width: 732px) {
+    .img-clinic {
+        max-width: 107%;
+        max-height: 280px;
+        min-width: 107%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 107%;
+        padding: 10px;
+        color: white;
+    }
+}
+@media screen and (max-width: 680px) {
+    .img-clinic {
+        max-width: 107.8%;
+        max-height: 280px;
+        min-width: 107.8%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 107.8%;
+        padding: 10px;
+        color: white;
+    }
+}
+@media screen and (max-width: 640px) {
+    .img-clinic {
+        max-width: 108%;
+        max-height: 280px;
+        min-width: 108%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 108%;
+        padding: 10px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-clinic {
+        max-width: 103.7%;
+        max-height: 280px;
+        min-width: 103.7%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 103.7%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .img-clinic {
+        max-width: 103.89%;
+        max-height: 280px;
+        min-width: 103.9%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 103.9%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .img-clinic {
+        max-width: 104.8%;
+        max-height: 280px;
+        min-width: 104.8%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 104.8%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-clinic {
+        max-width: 105.6%;
+        max-height: 280px;
+        min-width: 105.6%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 105.6%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .img-clinic {
+        max-width: 105.8%;
+        max-height: 280px;
+        min-width: 105.8%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 105.8%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .img-clinic {
+        max-width: 106.5%;
+        max-height: 280px;
+        min-width: 106.5%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 106.5%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .img-clinic {
+        max-width: 108%;
+        max-height: 280px;
+        min-width: 108%;
+        min-height: 280px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .header h4 {
+        height: 80px;
+        background-color: #012c49;
+        width: 107.8%;
+        padding: 10px;
+        color: white;
+        position: relative;
+        left: -12px;
+        top: -30px;
+    }
+
+    .clinic .content_clinic {
+        position: relative;
+        top: -35px;
+    }
+}
