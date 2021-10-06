@@ -47,6 +47,7 @@ $numRows = mysqli_num_rows($returnDb);
                             <span class="">Setor: <?= $sector; ?></span>
                         </div>
                     </div>
+               
 
 
                     <div class="row">
@@ -55,7 +56,10 @@ $numRows = mysqli_num_rows($returnDb);
                         </div>
                     </div>
                     <div class="d-none" id="idAjax" value="<?= $arrayReturnDb['id']; ?>"></div>
-                    <a href="#" id="<?= $arrayReturnDb['id']; ?>" name="idVagaAjax" class="btn btn-lg btn-invite">Candidate-se</a>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="#" id="<?= $arrayReturnDb['id']; ?>" name="idVagaAjax" class="btn btn-lg btn-invite">Candidate-se</a>
+                    </div>
+                    
                 </div>
 
             <?php

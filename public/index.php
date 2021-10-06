@@ -14,14 +14,14 @@ $active = true;
 <section id="contentAll">
 
   <div class="row" id="carrouseurs">
-    <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-12 col-sm-12 col-xl-12">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <?php
           if ($numRows <= 0) {
           ?>
             <div class="carousel-item active">
-              <img src="assets/img/banner.jpg" class="d-block w-100 banner" alt="banner1">
+              <img src="assets/img/banner.jpg" class="d-block w-100 banner img-fluid" alt="banner1">
             </div>
           <?php
           }
@@ -33,7 +33,7 @@ $active = true;
             $id = $arrayDb['id'];
           ?>
             <div class="carousel-item <?= $active ? 'active' : '' ?>">
-              <img src="upload/banner/<?= $file; ?>" class="d-block w-100 banner" alt="banner<?= $id; ?>">
+              <img src="upload/banner/<?= $file; ?>" class="d-block w-100 banner img-fluid" alt="banner<?= $id; ?>">
             </div>
           <?php
             $active = false;
@@ -47,7 +47,7 @@ $active = true;
 
   <div class="container" id="content">
     <div class="row infos">
-      <div class="block col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
+      <div class="block col-12 col-sm-5 col-md-4 col-lg-4 col-xl-4">
         <img src="assets/img/ambulance3.png" alt="icone de ambulância" class="rounded mx-auto d-block img-info">
         <h3 class="text-center">
           Pronto Atendimento
@@ -56,7 +56,7 @@ $active = true;
           Pronto Atendimento 24h para urgência e emergência, com equipe médica capacitada e excelente infraestrutura.
         </p>
       </div>
-      <div class="block block-2 col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
+      <div class="block block-2 col-12 col-sm-5 col-md-4 col-lg-4 col-xl-4">
         <img src="assets/img/Hospital_Icon.png" alt="icone de hospital" class="rounded mx-auto d-block img-info">
         <h3 class="text-center">
           Estruturação
@@ -65,7 +65,7 @@ $active = true;
           Possue uma ótima estrutura, possuindo Apartamentos, Berçario, Brinquedoteca, Centro Cirurgico, Laboratório, Ultrassonografia, etc.
         </p>
       </div>
-      <div class="block col-sm-5 col-md-4 col-lg-4 col-xs-4 col-xxl-4">
+      <div class="block col-12 col-sm-5 col-md-4 col-lg-4 col-xl-4">
         <img src="assets/img/qualification-icon-22.jpg" alt="imagem de coração" class="rounded mx-auto d-block img-info">
         <h3 class="text-center">
           Qualificação
@@ -81,7 +81,7 @@ $active = true;
 
   <main class="container" id="about">
     <div class="row content-about" id="about">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xxl-12">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         <h3 class="text-center">Sobre o Hospital Paineiras</h3>
         <p>
           A Sepaco Rede de Saúde Paineiras foi constituída pela Suzano Papel e Celulose S/A, em 15 setembro de 1993, na Bahia, atendendo inicialmente colaboradores da empresa e seus dependentes e, posteriormente, convênios e pacientes particulares.
@@ -94,15 +94,15 @@ $active = true;
     </div>
 
     <div class="row">
-      <div class="msv col-12 col-sm-4 col-md-4 col-lg-4 col-xs-12 col-xxl-12">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <img src="assets/img/Missao5.png" class="rounded mx-auto d-block img-info" alt="">
         <h4 class="text-center">Missão</h4>
-        <p>
+        <p class="d-flex">
           A missão que conceitua a razão da nossa existência: “Cuidar de nossos clientes com integridade, acolhimento, competência e preço competitivo.”
         </p>
       </div>
 
-      <div class="msv col-12 col-sm-4 col-md-4 col-lg-4 col-xs-12 col-xxl-12">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <img src="assets/img/Visao5.png" class="rounded mx-auto d-block img-info" alt="">
         <h4 class="text-center">Visão</h4>
         <p>
@@ -116,7 +116,7 @@ $active = true;
         </p>
       </div>
 
-      <div class="msv col-12 col-sm-4 col-md-4 col-lg-4 col-xs-12 col-xxl-12">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <img src="assets/img/Valores5.png" class="rounded mx-auto d-block img-info" alt="">
         <h4 class="text-center">Valores</h4>
         <p>

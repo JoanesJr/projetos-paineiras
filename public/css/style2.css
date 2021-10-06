@@ -321,7 +321,17 @@ label {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
+    .banner {
+        max-width: 3000px;
+        min-height: 500px;
+        max-height: 540px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and (max-width: 1399px) {
     .banner {
         width: 1350px;
         max-width: 1350px;
