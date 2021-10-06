@@ -3,11 +3,8 @@
 
 O Git/GitHub são legais!
 
-Mova a pasta "projetos-paineiras" para o mesmo nível da pasta "htdocs".
-
 Configure seu email em projetos-paineiras/enviar_email.
 
-Crie a pasta upload e a subpasta banner.
 
 ===============================SQL======================
 
